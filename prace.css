@@ -135,3 +135,82 @@ p {
 .Salon {
     border-radius: 25px;
 }
+
+@media (max-width: 1024px) {
+
+    .header_content {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .prekliky,
+    .dalsiepage {
+        gap: 30px;
+        font-size: 24px;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .Project_Card {
+        max-width: 90%;
+    }
+
+    h2 {
+        font-size: 40px;
+    }
+}
+
+
+/* Mobil */
+@media (max-width: 768px) {
+
+    .telo {
+        margin-top: 300px;
+        margin-bottom: 50px;
+    }
+
+    .header {
+        padding: 20px;
+    }
+
+    .header_content {
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .prekliky,
+    .dalsiepage {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 20px;
+        font-size: 20px;
+    }
+
+    .Project_Card {
+        flex-direction: column;
+        text-align: center;
+        max-width: 95%;
+        padding: 15px;
+    }
+
+    .project-image,
+    .project-image_TPUD {
+        width: 100%;
+        max-width: 250px;
+        height: auto;
+        margin: 0 0 15px 0;
+    }
+
+    h2 {
+        font-size: 32px;
+    }
+
+    p {
+        font-size: 18px;
+    }
+
+    img {
+        width: 40px;
+        height: 40px;
+    }
+}

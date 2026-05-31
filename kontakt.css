@@ -140,3 +140,90 @@ h1{
     input{
         margin-top: 15px;
     }
+
+
+@media (max-width: 1200px) {
+
+    .contact-info {
+        position: static;
+        margin: 0 auto;
+        max-width: 800px;
+        padding: 20px;
+    }
+
+    .contact-form {
+        position: static;
+        width: 90%;
+        max-width: 550px;
+        margin: 40px auto;
+    }
+
+    .send-btn {
+        position: static;
+        width: 100%;
+    }
+}
+
+/* Mobil */
+@media (max-width: 768px) {
+
+    .header {
+        padding: 20px;
+    }
+
+    .header_content {
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .prekliky,
+    .dalsiepage {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 15px;
+        font-size: 20px;
+    }
+
+    .socialne-siete {
+        justify-content: center;
+    }
+
+    .telo {
+        margin-top: 280px;
+        padding: 0 15px;
+    }
+
+    .contact-info {
+        text-align: center;
+    }
+
+    .contact-info h2 {
+        font-size: 35px;
+    }
+
+    .contact-info p {
+        font-size: 18px;
+    }
+
+    .contact-form {
+        width: 100%;
+        max-width: 100%;
+    }
+
+    .contact-form input,
+    .contact-form textarea {
+        width: 100%;
+        box-sizing: border-box;
+        font-size: 16px;
+    }
+
+    .send-btn {
+        width: 100%;
+        font-size: 18px;
+    }
+
+    img {
+        width: 40px;
+        height: 40px;
+    }
+}
