@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="sk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PurePreisler</title>
+    <link rel="stylesheet" href="kontakt.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+<body class="telo">
+    <div class="header">
+        <div class="header_content">
+            <div class="logo">
+                <h1>PurePreisler</h1>
+            </div>
+            <div class="prekliky">
+                <a class="dalsiepage" href="index.html">O mne</a>
+                <a class="dalsiepage kontakt" href="kontakt.html">Kontaktuj ma</a>
+                <a class="dalsiepage" href="prace.html">Moje projekty</a>
+            </div>
+            <div class="socialne-siete">
+                <a href="#"><img src="20673.png" alt="FB"></a> 
+                <a href="#"><img src="INSTAGRAMICON.png" alt="IG"></a>
+                <a href="#"><img src="linkedin-black-icon-logo-png_seeklogo-387472.png" alt="IN"></a>
+            </div>
+        </div>
+    </div>
+
+    <div class="contact-container">
+        <div class="contact-card">
+            <div class="contact-info">
+                <h2>Poďme spolu tvoriť</h2>
+                <p>Ak máte nápad na projekt alebo chcete prebrať technológie, napíšte mi.</p>
+                
+                <div class="details">
+                    <p>Žilina, Slovensko</p>
+                    <p>jankpreisler@gmail.com</p>
+                    <p>+421 902 547 477</p>
+                </div>
+            </div>
+
+            <form action="https://formspree.io/f/xeepggea" method="POST" class="contact-form">
+                <div class="input-group">
+                    <label>Meno</label>
+                    <input class="inputak" type="text" name="name" placeholder="Vaše meno" required>
+                </div>
+                <div class="input-group">
+                    <label>Email</label>
+                    <input class="inputak" type="email" name="_replyto" placeholder="vas@email.com" required>
+                </div>
+                <div class="input-group">
+                    <label>Správa o sluzbe</label>
+                    <textarea class="inputak" name="message" rows="5" placeholder="Napíšte niečo..." required></textarea>
+                </div>
+                <button type="submit" class="send-btn">ODOSLAŤ</button>
+            </form>
+        </div>
+    </div>
+</body>
+</html>

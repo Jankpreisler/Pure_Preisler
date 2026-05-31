@@ -1,0 +1,168 @@
+.telo{
+    margin: 0px;
+    margin-top: 200px;
+}
+.header_content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+}
+.hlavne{
+    font-weight: bold;
+}
+img{
+    width: 50px;
+    height: 50px;
+}
+.prekliky, a{
+    display: flex;
+    text-decoration: none;
+    font-size: 30px;
+    gap: 75px;
+    color: black;
+}
+.header{
+    border-bottom: 8px solid black;
+    border-radius: 0px 0px 25px 25px;
+    padding: 45px;
+    align-items: center;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    position: fixed;
+    background-color: white;
+}
+h1{
+    margin: 0px;
+}
+.socialne-siete{
+    display: flex;
+    gap: 10px;
+}
+
+.dalsiepage{
+    display: flex;
+    text-decoration: none;
+    font-size: 30px;
+    gap: 75px;
+    color: black;
+    position: relative;
+}
+
+.dalsiepage::after{
+    content: '';    
+    position: absolute;
+    width: 0;                 
+    height: 2px;             
+    bottom: -5px;            
+    left: 0;                  
+    background-color: #000000;
+    transition: width 0.6s ease-in-out;
+}
+
+.dalsiepage:hover::after{
+    width: 100%;
+}
+
+.Main_Text{
+    display: block;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+}
+
+.uvod_hlaska{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.uvod, .uvod_glazingline{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+}
+.ExploreBtn{
+    display: flex;
+    position: absolute;
+    top: 590px;
+    justify-content: center;
+    align-items: center ;
+    width: 650px;
+    height: 100px;
+    border-radius: 25px;
+    border: none;
+    border: #000000 solid 2px;
+    color: aliceblue;
+    background-color: blue;
+    font-size: 50px;
+    cursor: pointer;
+    transition: transform 0.5s ease 0s, background-color 0.3s, color 0.3s;
+    transform: translateY(0);
+}
+.ExlopreBtncontent{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    color: white;
+}
+
+   
+
+.uvod_glazingline{
+    color: blue;
+}
+
+.About_me_text {
+    display: flex;
+    justify-content: center;
+    align-items: stretch; 
+    flex-wrap: wrap;      
+    gap: 30px;            
+    padding: 50px 20px;
+}
+
+.About_me_hlaska {
+    display: block;       
+    text-align: center;   
+    font-size: 27px;    
+    margin-bottom: 15px;
+    color: #333;
+}
+
+.Karta {
+    margin-top: 230px;
+    flex: 1 1 1;              
+    min-width: 300px;     
+    max-width: 450px;     
+    background-color: #ffffff;
+    border: 1px solid #e0e0e0;
+    border-left: 8px solid gray; 
+    border-radius: 20px;
+    padding: 30px;
+    font-size: 18px;    
+    line-height: 1.6;     
+    box-shadow: 0 4px 15px rgba(0,0,0,0.05); 
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.Karta:hover{
+    transform: translateY(-10px);
+    border-left: red 8px solid;
+}
+
+.About_me_text_p {
+    margin: 0;
+    color: #555;
+}
+
+.ExploreBtn:hover{
+    background-color: white;
+    color: #000000;
+    box-shadow: 5px 5px rgba(126, 183, 248, 0.699);
+    transition: transform 0.3s ease 0s;
+    transform: translateY(-15px);
+}

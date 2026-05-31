@@ -1,0 +1,143 @@
+
+.telo{
+    margin: 0px;
+    margin-top: 200px;
+}
+.header_content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+}
+.kontakt{
+    font-weight: bold;
+}
+img{
+    width: 50px;
+    height: 50px;
+}
+.prekliky, a{
+    display: flex;
+    text-decoration: none;
+    font-size: 30px;
+    gap: 75px;
+    color: black;
+}
+.header{
+    border-bottom: 8px solid black;
+    border-radius: 0px 0px 25px 25px;
+    padding: 45px;
+    align-items: center;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    position: fixed;
+    background-color: white;
+}
+h1{
+    margin: 0px;
+}
+.socialne-siete{
+    display: flex;
+    gap: 10px;
+}
+
+.dalsiepage{
+    display: flex;
+    text-decoration: none;
+    font-size: 30px;
+    gap: 75px;
+    color: black;
+    position: relative;
+}
+
+.dalsiepage::after{
+    content: '';    
+    position: absolute;
+    width: 0;                 
+    height: 2px;             
+    bottom: -5px;            
+    left: 0;                  
+    background-color: #000000;
+    transition: width 0.6s ease-in-out;
+}
+
+.dalsiepage:hover::after{
+    width: 100%;
+}
+
+.contact-info{
+    position: absolute;
+    left: 400px;
+}
+
+.contact-info h2 {
+    font-size: 50px;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+}
+
+.contact-info p {
+    font-size: 20px;
+    line-height: 1.6;
+}
+
+.details {
+    margin-top: 40px;
+}
+
+.contact-form {
+    display: flex;
+    position: absolute;
+    top: 300px;
+    left: 1250px;
+    flex-direction: column;
+    gap: 20px;
+    width: 550px;
+}
+
+.contact-form input{
+    width: 100%;
+    max-width: 550px;
+    padding: 15px;
+    border: 3px solid black;
+    border-radius: 15px;
+    font-size: 18px;
+    outline: none;
+}
+
+.contact-form textarea {
+     width: 100%;
+    max-width: 550px;
+    padding: 15px;
+    border: 3px solid black;
+    border-radius: 15px;
+    font-size: 18px;
+    outline: none;
+}
+.contact-container{
+    border: 2px solid black;
+}
+
+
+.send-btn {
+    background-color: black;
+    color: white;
+    border: none;
+    padding: 20px;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 15px;
+    width: 550px;
+    cursor: pointer;
+    transition: 0.3s ease;
+    position: absolute;
+    top: 390px;
+    left: 20px;
+}
+
+.send-btn:hover {
+    background-color: #333;
+    transform: scale(1.02);
+}
