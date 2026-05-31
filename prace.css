@@ -159,7 +159,13 @@ p {
         font-size: 40px;
     }
 }
-
+footer {
+    text-align: center;
+    padding: 20px;
+    margin-top: 50px;
+    font-size: 0.9rem;
+    color: #777;
+}
 
 /* Mobil */
 @media (max-width: 768px) {
