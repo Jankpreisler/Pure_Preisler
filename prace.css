@@ -166,6 +166,14 @@ footer {
     font-size: 0.9rem;
     color: #777;
 }
+.socialne-siete a {
+    display: inline-block;
+    transition: transform 0.3s ease;
+}
+
+.socialne-siete a:hover {
+    transform: scale(1.1);
+}
 
 /* Mobil */
 @media (max-width: 768px) {

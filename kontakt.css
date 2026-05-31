@@ -160,6 +160,15 @@ footer {
     left: 800px;
 }
 
+.socialne-siete a {
+    display: inline-block;
+    transition: transform 0.3s ease;
+}
+
+.socialne-siete a:hover {
+    transform: scale(1.1);
+}
+
 @media (max-width: 1200px) {
 
     .contact-info {
