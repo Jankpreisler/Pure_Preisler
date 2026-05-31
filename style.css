@@ -118,7 +118,7 @@ h1{
 }
 
 .About_me_text {
-    display: flex;
+    display: block;
     justify-content: center;
     align-items: stretch; 
     flex-wrap: wrap;      
@@ -133,11 +133,10 @@ h1{
     margin-bottom: 15px;
     color: #333;
 }
-
-.Karta {
-    margin-top: 230px;
-    flex: 1 1 1;              
-    min-width: 300px;     
+.Karta_prva{
+    display: block; 
+    margin-top: 230px; 
+    min-width: 97%;      
     max-width: 450px;     
     background-color: #ffffff;
     border: 1px solid #e0e0e0;
@@ -149,7 +148,22 @@ h1{
     box-shadow: 0 4px 15px rgba(0,0,0,0.05); 
     transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
-.Karta:hover{
+.Karta {
+    display: block; 
+    margin-top: 10px;
+    min-width: 97%;     
+    max-width: 450px;     
+    background-color: #ffffff;
+    border: 1px solid #e0e0e0;
+    border-left: 8px solid gray; 
+    border-radius: 20px;
+    padding: 30px;
+    font-size: 18px;    
+    line-height: 1.6;     
+    box-shadow: 0 4px 15px rgba(0,0,0,0.05); 
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.Karta:hover, .Karta_prva:hover{
     transform: translateY(-10px);
     border-left: red 8px solid;
 }
