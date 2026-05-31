@@ -90,7 +90,7 @@ h1{
 .contact-form {
     display: flex;
     position: absolute;
-    top: 300px;
+    top: 240px;
     left: 1250px;
     flex-direction: column;
     gap: 20px;
@@ -116,10 +116,6 @@ h1{
     font-size: 18px;
     outline: none;
 }
-.contact-container{
-    border: 2px solid black;
-}
-
 
 .send-btn {
     background-color: black;
@@ -141,3 +137,6 @@ h1{
     background-color: #333;
     transform: scale(1.02);
 }
+    input{
+        margin-top: 15px;
+    }

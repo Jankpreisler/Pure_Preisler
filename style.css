@@ -1,28 +1,34 @@
-.telo{
+.telo {
     margin: 0px;
     margin-top: 200px;
 }
-.header_content{
+
+.header_content {
     display: flex;
     justify-content: center;
     align-items: center;
     justify-content: space-between;
 }
-.hlavne{
+
+.hlavne {
     font-weight: bold;
 }
-img{
+
+img {
     width: 50px;
     height: 50px;
 }
-.prekliky, a{
+
+.prekliky,
+a {
     display: flex;
     text-decoration: none;
     font-size: 30px;
     gap: 75px;
     color: black;
 }
-.header{
+
+.header {
     border-bottom: 8px solid black;
     border-radius: 0px 0px 25px 25px;
     padding: 45px;
@@ -33,16 +39,19 @@ img{
     right: 0px;
     position: fixed;
     background-color: white;
+    z-index: 50000;
 }
-h1{
+
+h1 {
     margin: 0px;
 }
-.socialne-siete{
+
+.socialne-siete {
     display: flex;
     gap: 10px;
 }
 
-.dalsiepage{
+.dalsiepage {
     display: flex;
     text-decoration: none;
     font-size: 30px;
@@ -51,46 +60,51 @@ h1{
     position: relative;
 }
 
-.dalsiepage::after{
-    content: '';    
+.dalsiepage::after {
+    content: '';
     position: absolute;
-    width: 0;                 
-    height: 2px;             
-    bottom: -5px;            
-    left: 0;                  
+    width: 0;
+    height: 2px;
+    bottom: -5px;
+    left: 0;
     background-color: #000000;
     transition: width 0.6s ease-in-out;
 }
 
-.dalsiepage:hover::after{
+.dalsiepage:hover::after {
     width: 100%;
 }
 
-.Main_Text{
+.Main_Text {
     display: block;
     justify-content: center;
     align-items: center;
     font-size: 50px;
+    background-color: rgba(190, 190, 190, 0.141);
+    animation: fadeIn 1.2s ease-out forwards;
 }
 
-.uvod_hlaska{
+.uvod_hlaska {
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.uvod, .uvod_glazingline{
+.uvod,
+.uvod_glazingline {
     display: flex;
     justify-content: center;
     align-items: center;
     font-weight: bold;
 }
-.ExploreBtn{
+
+.ExploreBtn {
+
     display: flex;
     position: absolute;
     top: 590px;
     justify-content: center;
-    align-items: center ;
+    align-items: center;
     width: 650px;
     height: 100px;
     border-radius: 25px;
@@ -103,88 +117,94 @@ h1{
     transition: transform 0.5s ease 0s, background-color 0.3s, color 0.3s;
     transform: translateY(0);
 }
-.ExlopreBtncontent{
+
+.ExlopreBtncontent {
     display: flex;
     justify-content: center;
     align-items: center;
     font-size: 50px;
     color: white;
+    background-color: rgba(190, 190, 190, 0.141);
 }
 
-   
-
-.uvod_glazingline{
+.uvod_glazingline {
     color: blue;
 }
 
 .About_me_text {
     display: block;
     justify-content: center;
-    align-items: stretch; 
-    flex-wrap: wrap;      
-    gap: 30px;            
+    align-items: stretch;
+    flex-wrap: wrap;
+    gap: 30px;
     padding: 50px 20px;
 }
 
 .About_me_hlaska {
-    display: block;       
-    text-align: center;   
-    font-size: 27px;    
+    display: block;
+    text-align: center;
+    font-size: 27px;
     margin-bottom: 15px;
     color: #333;
 }
-.Karta_prva{
-    display: block; 
-    margin-top: 50px; 
-    min-width: 97%;      
-    max-width: 450px;     
+
+.Karta_prva {
+    display: block;
+    margin-top: 10px;
+    min-width: 97%;
+    max-width: 450px;
     background-color: #ffffff;
     border: 1px solid #e0e0e0;
-    border-left: 8px solid gray; 
+    border-left: 8px solid gray;
     border-radius: 20px;
     padding: 30px;
-    font-size: 18px;    
-    line-height: 1.6;     
-    box-shadow: 0 4px 15px rgba(0,0,0,0.05); 
+    font-size: 18px;
+    line-height: 1.6;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
     transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
+
 .novinky_sekcia {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     text-align: center;
-    margin-top: 80px;
+    margin-top: 120px;
     padding: 0 20px;
 }
 
 .titulik {
-    font-size: 7.2rem; 
+    font-size: 7.2rem;
     margin-top: 35px;
     color: #000000;
 }
+
 .obrastok {
     width: 100%;
-    max-width: 600px; 
+    max-width: 600px;
     height: auto;
     border-radius: 15px;
 }
+
 .Karta {
-    display: block; 
+    display: block;
     margin-top: 10px;
-    min-width: 97%;     
-    max-width: 450px;     
+    min-width: 97%;
+    max-width: 450px;
     background-color: #ffffff;
     border: 1px solid #e0e0e0;
-    border-left: 8px solid gray; 
+    border-left: 8px solid gray;
     border-radius: 20px;
     padding: 30px;
-    font-size: 18px;    
-    line-height: 1.6;     
-    box-shadow: 0 4px 15px rgba(0,0,0,0.05); 
+    font-size: 18px;
+    line-height: 1.6;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
     transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
-.Karta:hover, .Karta_prva:hover{
+
+.Karta:hover,
+.Karta_prva:hover {
     transform: translateY(-10px);
     border-left: red 8px solid;
 }
@@ -194,7 +214,7 @@ h1{
     color: #555;
 }
 
-.ExploreBtn:hover{
+.ExploreBtn:hover {
     background-color: white;
     color: #000000;
     box-shadow: 5px 5px rgba(126, 183, 248, 0.699);
@@ -202,11 +222,24 @@ h1{
     transform: translateY(-15px);
 }
 
-.ocenenia:hover{
+.ocenenia:hover {
     transform: translateY(-10px);
     border-left: rgb(255, 234, 0) 8px solid;
 }
-.skusenosti:hover{
-     transform: translateY(-10px);
+
+.skusenosti:hover {
+    transform: translateY(-10px);
     border-left: rgb(0, 255, 242) 8px solid;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
 }
