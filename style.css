@@ -135,7 +135,7 @@ h1{
 }
 .Karta_prva{
     display: block; 
-    margin-top: 230px; 
+    margin-top: 50px; 
     min-width: 97%;      
     max-width: 450px;     
     background-color: #ffffff;
@@ -147,6 +147,27 @@ h1{
     line-height: 1.6;     
     box-shadow: 0 4px 15px rgba(0,0,0,0.05); 
     transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.novinky_sekcia {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-top: 80px;
+    padding: 0 20px;
+}
+
+.titulik {
+    font-size: 7.2rem; 
+    margin-top: 35px;
+    color: #000000;
+}
+.obrastok {
+    width: 100%;
+    max-width: 600px; 
+    height: auto;
+    border-radius: 15px;
 }
 .Karta {
     display: block; 
@@ -179,4 +200,13 @@ h1{
     box-shadow: 5px 5px rgba(126, 183, 248, 0.699);
     transition: transform 0.3s ease 0s;
     transform: translateY(-15px);
+}
+
+.ocenenia:hover{
+    transform: translateY(-10px);
+    border-left: rgb(255, 234, 0) 8px solid;
+}
+.skusenosti:hover{
+     transform: translateY(-10px);
+    border-left: rgb(0, 255, 242) 8px solid;
 }
